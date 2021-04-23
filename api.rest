@@ -1,0 +1,17 @@
+###
+GET http://localhost:4321
+
+###
+POST http://localhost:4321/api/crear
+Content-Type: application/json
+
+{
+    "name": "PHP",
+    "duration": "140",
+    "description": "Backend",
+    "available": true,
+    "imgUrl": "http://imagen"
+}
+
+###
+GET http://localhost:4321/api/listar

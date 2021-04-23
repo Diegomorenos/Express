@@ -1,0 +1,22 @@
+{
+  "name": "appServer",
+  "version": "1.0.0",
+  "description": "Clase para proyecto back",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js --exec babel-node"
+  },
+  "keywords": [],
+  "author": "Diego Moreno",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
